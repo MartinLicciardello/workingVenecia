@@ -1,0 +1,49 @@
+/* Formulario stilo */
+/*CONTACTO = FORMULARIO
+  Se realizó mejoras visuales desde este css y tambien manejando desde el dom propio del formulario en formulario.js*/
+   
+#formularioSeccion{
+    background-image: url('imagenesPag/fondoPoniendoCeramica3.jpg');
+    background-size: cover;
+    padding-top: 90px;
+    min-height: 700px;
+    color: #ffffff;
+}
+
+.cuadroform{
+    width: 100%;
+    padding: 10px;
+    border: 3px solid rgba(192, 57, 43,.9) ;
+    font-family: 'Red Rose', cursive;
+    color: black;
+
+}
+.topmargin-lg{
+    margin-top: 60px;
+}
+.topmargin-sm{
+    margin-top: 30px;
+}
+.topmargin-xs{
+ margin-top: 15px;
+}
+h2{
+    
+    font-size: 46px;
+    font-weight: 400;
+    line-height: 60px;
+}
+
+p{
+    font-family: 'Red Rose', cursive;
+}
+
+.background-overlay{
+    background-color:rgba(192, 57, 43,.6);
+}
+
+.subtitulo{
+    background-color:rgba(45, 52, 54,.7);
+    border-bottom: solid rgba(192, 57, 43,1) 2px ;
+    font-family: 'Red Rose', cursive;
+}

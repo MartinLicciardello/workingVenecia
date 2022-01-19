@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dela+Gothic+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dela+Gothic+One&family=Noto+Sans+HK:wght@300&display=swap" rel="stylesheet">
+    <title>Casa Venecia</title>
+</head>
+
+<body>
+    <!--BARRA DE NAVEGACION-->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="index.html" style="font-size: 30px; color: black;"><b class="casaVenecia">CASA VENECIA</b></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <ion-icon name="menu-outline"></ion-icon>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html" id="home"><b>Inicio</b></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="ceramicas.html" id="aboutus"><b>Cerámicas</b></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacto.html" id="aboutus"><b>Contacto</b></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--Landig page del negocio-->
+    <section id="hero">
+        <div class="container">
+            <div class=".content-center topmargin-lg">
+                <h1> <b style="color: #1a1a1a;">CASA VENECIA</b><br> 
+                    <u>Sanitarios y Aberturas</u></h1><br>
+                <h2>Buscaremos que se vaya satisfecho, con la mejor atención posible.</h2><br>
+            </div>
+        </div> 
+    </section>
+    <br>
+    <section id="portfolio">
+        <div class="container-fuid">
+            <div class="content-center">
+                <h2><b>Quienes somos?</b></h2><br>
+                 <p><b>CASA VENECIA</b> es un comercio familiar ubicado en Lanus, zona Sur del Gran Buenos Aires. Fundado el 3 de Febrero de 1993. Nos encargamos de la venta ceramicas de las primeras marcas, todas de industria Nacional.</p>
+                  <video width="400" controls id="fm-videos">
+                    <source src="imagenesNegocio/ceramicaVideoCasero.mp4" type="video/mp4">
+      
+                  </video>
+               <!--CARRUSEL DE FOTOS-->
+               <br>
+               <div class="slide-contenedor">
+                    <div class="miSlider fade">
+                        <img src="imagenesNegocio/fondodelanding.jpg" alt="">
+                    </div>
+                    <div class="miSlider fade">
+                        <img src="imagenesNegocio/camionSampi.jpeg" alt="">
+                    </div>
+                    <div class="miSlider fade">
+                        <img src="imagenesNegocio/logoAllpaCeramica.jpg" alt="">
+                    </div>
+                    <div class="miSlider fade">
+                        <img src="imagenesNegocio/logoCortinesCeramica.png" alt="">
+                    </div>
+                    <div class="miSlider fade">
+                        <img src="imagenesNegocio/logoLourdesCeramica.jpg" alt="">
+                    </div>
+                    <div class="miSlider fade">
+                        <img src="imagenesNegocio/fondoPoniendoCeramica15.jpg" alt="">
+                    </div>
+                    <div class="miSlider fade">
+                        <img src="imagenesNegocio/fondoqueva.jpg" alt="">
+                    </div>
+                    <div class="miSlider fade">
+                        <img src="imagenesNegocio/foteli.jpg" alt="">
+                    </div>
+                    <div class="miSlider fade">
+                        <img src="imagenesNegocio/fondoPoniendoCeramica13.jpg" alt="">
+                    </div>
+                    <div class="direcciones">
+                        <a href="#" class="atras" onclick="avanzaSlide(-1)">&#10094;</a>
+                        <a href="#" class="adelante" onclick="avanzaSlide(1)">&#10095;</a>
+                    </div>
+                    <div class="barras">
+                        <span class="barra active" onclick="posicionSlide(1)"></span>
+                        <span class="barra active" onclick="posicionSlide(2)"></span>
+                        <span class="barra active" onclick="posicionSlide(3)"></span>
+                        <span class="barra active" onclick="posicionSlide(4)"></span>
+                        <span class="barra active" onclick="posicionSlide(5)"></span>
+                        <span class="barra active" onclick="posicionSlide(6)"></span>
+                        <span class="barra active" onclick="posicionSlide(7)"></span>
+                        <span class="barra active" onclick="posicionSlide(8)"></span>
+                        <span class="barra active" onclick="posicionSlide(9)"></span>
+                    </div>
+            </div>
+
+
+
+            </div>
+        </div>
+    </section>
+
+
+
+    <!--Pie de pagina web-->
+    <section id="flooter" class="bg-dark">
+        <div class="container">
+         <a id="logo" class="navbar-brand text-white "  href="index.html">
+           Casa Venecia </a>
+           <ul class="list-inline">
+             <li class="list-inline-item flooter-menu"><a href="#">Home</a></li>
+             <li class="list-inline-item flooter-menu"><a href="#portfolio">¿Quienes somos?</a></li>
+             <li class="list-inline-item flooter-menu"><a href="mailto: licciardellomartin8@gmail.com">Contacto</a></li>
+             
+           </ul>
+           <p>Created by Martín Licciardello</p>
+        </div>
+        </section>
+        <!-- SCRIPTS UTILIZADOS -->
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="javascript/main.js"></script>
+        <script src="javascript/carrusel.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+        crossorigin="anonymous"></script>
+        <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+</body>
+
+</html>
+
